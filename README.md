@@ -115,8 +115,8 @@ Esta informacion puede ser utíl para mejorar el rendimiento de carga, saber si 
 obtener otros parametros de interés.
 
 <img src="doc/serial_port_debuging.png"/>
-Simplemente en el usbserial conectamos RX en T y utilizacon putty u otro software de lectura serial
-El bitrate es 1000000.
+Simplemente en el usbserial conectamos RX en T.
+Con putty u otro software de lectura serial  El bitrate es 1000000.
 <img src="doc/downImg.jpg"/>
 
 
