@@ -119,6 +119,23 @@ Simplemente en el usbserial conectamos RX en T.
 Con putty u otro software de lectura serial  El bitrate es 1000000.
 <img src="doc/downImg.jpg"/>
 
+Recomendaciones o informacion de interes extraida:
+
+--------
+
+Para la creancion de 0 del proyecto:
+
+Para cada firmware, pondré el último en la versión.
+
+Firmware STM32: requiere JFlash incluido con la herramienta jlink
+
+Firmware FPGA: Hay dos formas de programar el firmware FPGA por primera vez.
+1: Utilice la herramienta de programación de Altera (ahora Intel). https://www.intel.com/content/www/us/en/software-kit/711920/intel-quartus-ii-subscription-edition-design-software-version-13-0sp1-for-windows.html
+Puede descargar esta herramienta desde la página: Programador Intel® Quartus® II y SignalTap II
+2: SPIFlash se puede escribir directamente. Puede quitar el chip para programarlo o puede usar una herramienta para sujetar el chip y programarlo en la placa. Este método requiere invertir los bits alto y bajo de cada byte del firmware.
+
+--------
+
 
 
 一些开发中的记录: [SAROO技术点滴](doc/SAROO技术点滴.txt)
