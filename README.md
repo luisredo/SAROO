@@ -135,6 +135,10 @@ Puede descargar esta herramienta desde la página: Programador Intel® Quartus®
 2: SPIFlash se puede escribir directamente. Puede quitar el chip para programarlo o puede usar una herramienta para sujetar el chip y programarlo en la placa. Este método requiere invertir los bits alto y bajo de cada byte del firmware.
 
 --------
+Proximamente :
+Faq Briks, posibles errores y soluciones.
+Reprogramacion de FPGA y MCU en las flash onboard.
+Saludos Redo.
 
 
 
